@@ -1,6 +1,6 @@
 version: '3'
 services:
   load_balancer:
-    image: kevinmjacobs/reviews-ratings-load-balancer:latest
+    image: kevinmjacobs/reviews-ratings-load-balancer:newest
     ports:
       - "8080:8080"
